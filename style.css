@@ -15,9 +15,9 @@ body {
   }
 
   h1 {
-    padding: 20px;
+    padding: 0px;
     margin-top: 0px;
-    vertical-align: center;
+    text-align: left center;
       font-family: Arial, Helvetica, sans-serif;
       color: #ffffff;
       font-size: 30px;
