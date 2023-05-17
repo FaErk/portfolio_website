@@ -5,8 +5,9 @@ body {
   }
 
   .mainHeader {
+    margin-top: 0;
       height: 60px;
-      background-color: #92bcb5;
+      background-color: #94c8c0;
   }
 
   .pageElement {
@@ -15,12 +16,15 @@ body {
   }
 
   h1 {
+    margin-left: 20px;
+    vertical-align: center;
       font-family: Arial, Helvetica, sans-serif;
-      color: #151616;
+      color: #ffffff;
       font-size: 30px;
   }
 
   h2 {
+    margin-left: 20px;
       font-family: Arial, Helvetica, sans-serif;
       color: #151616;
       font-size: 20px;
