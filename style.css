@@ -52,6 +52,10 @@ body {
       height: auto;
   }
 
+  .artImageElement {
+    width: 95%;
+  }
+
   .artimg {
     width: 20%;
   }
