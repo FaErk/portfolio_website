@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 20px;
+  }
+  
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #191b1a00;
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #191b1a00;
+  }
+
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #191b1a00;
+  } 
+
+  .p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #191b1a00;
+  } 
