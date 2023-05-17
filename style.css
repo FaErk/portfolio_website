@@ -52,6 +52,10 @@ body {
       height: auto;
   }
 
+  .artimg {
+    width: 20%;
+  }
+
  /* .imageElement {
     float: left;
   }
