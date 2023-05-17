@@ -15,6 +15,7 @@ body {
   .pageElement {
     margin-left: 20px;
     margin-bottom: 20px;
+    float: none;
   }
 
   h1 {
@@ -50,8 +51,12 @@ body {
   img {
       width: 25%;
       height: auto;
-      float: left;
   }
+
+  .imageElement {
+    float: left;
+  }
+  
 
   a {
     font-family: Arial, Helvetica, sans-serif;
