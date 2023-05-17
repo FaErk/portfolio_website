@@ -1,10 +1,17 @@
 body {
-    width: 80%;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
   }
 
-  .MainHeader {
-      height: 30px;
+  .mainHeader {
+      height: 60px;
       background-color: #92bcb5;
+  }
+
+  .pageElement {
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   h1 {
