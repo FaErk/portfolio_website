@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin-top: 0;
     margin-left: 0;
+    float: none;
   }
 
   .mainHeader {
@@ -18,13 +19,13 @@ body {
   h1 {
     margin-left: 20px;
     vertical-align: center;
+    margin-top: 15px;
       font-family: Arial, Helvetica, sans-serif;
       color: #ffffff;
       font-size: 30px;
   }
 
   h2 {
-    margin-left: 20px;
       font-family: Arial, Helvetica, sans-serif;
       color: #151616;
       font-size: 20px;
