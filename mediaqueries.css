@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) {
+   #desktop-navbar {
+    display: none;
+   } 
+   #hamburger-navbar {
+    display: flex;
+   }
+}
+
+@media screen and (max-width: 1040px) {
+   #projects {
+      height: 764vh;
+   }
+}

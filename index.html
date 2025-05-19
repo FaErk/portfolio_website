@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanny Erkhammar portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+
+</head>
+<body>
+    <nav id="desktop-navbar">
+        <div class="logo">Fanny Erkhammar</div>
+        <div>
+            <ul class="navbar-elements">
+                <li><a href="#about">About</a></li>
+                <!--
+                <li><a href="#experience">Experience</a></li>
+                -->
+                <li><a href="#projects">Projects</a></li>
+                <!--
+                <li><a href="#art">Art</a></li>
+                -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div> 
+    </nav>
+
+    <nav id="hamburger-navbar">
+        <div class="logo">Fanny Erkhammar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+<span></span>
+<span></span>
+<span></span>
+            </div>
+            <div class="menu-elements">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <!--
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                -->
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <!--
+                <li><a href="#art" onclick="toggleMenu()">Art</a></li>
+                -->
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__img-container">
+            <img class="profile-img" src="./assets/images/profile/cv-pic-2024 light small.png">
+        </div>
+
+        <div class="section__text">
+            <h1 class="title">Creative UX designer and developer with a passion for art.</h1>
+            <p class="section__text__p2">Master student at KTH Royal Institure of Technology</p>
+            <div class="section__text__list">
+                <li class="list-text">Interactive Media Technology</li>
+                <li class="bullet">•</li>
+                <li class="list-text">UX design</li>
+                <li class="bullet">•</li>
+                <li class="list-text">Frontend development</li>
+            </div>
+        
+            <!-- 
+            <p class="section__text__p3">Creative UX designer and developer with a passion for art.</p>
+            -->
+            <div class="button-container">
+                <button class="button button-color-2" 
+                onclick="window.open('./assets/documents/CV Fanny Erkhammar 2025 - eng portfolio.pdf')">
+                    Download CV
+                </button>
+                <button class="button button-color-1" 
+                onclick="location.href='./#contact'">
+                    Contact info
+                </button> 
+            </div>
+            
+            <div id="socials-container">
+                <img src="./assets/graphics/linkedin.png" alt="My LinkedIn profile" class="icon" 
+                onclick="location.href='http://www.linkedin.com/in/fanny-erkhammar-534924158/'">
+                <img src="./assets/graphics/github-mark.png" alt="My GitHub profile" class="icon" 
+                onclick="location.href='https://github.com/FaErk/'">
+            </div>
+        </div>
+        
+    </section>
+
+<hr class="line">
+
+    <section id="about">
+        <h1 class="title">Skills</h1>
+        <div class="section-container">
+            <div class="list-container">
+                <ul class="skills-list">
+                    <li class><b>Human computer interaction</b></li>
+                    <li><b>UX</b> & <b>UI design</b></li>
+                    <li><b>User research & user testing</b></li>
+                    <li><b>Figma</b></li>
+                    <li><b>Adobe Photoshop</b> & <b>Illustrator</b></li>
+                    <li>Experienced with <b>Python, HTML</b> & <b>CSS</b></li>
+                    <li>Fundamental skills in <b>Javascript</b>  & <b>React</b></li>
+                    <li><b>Problem solving</b></li>
+                    <li>Experienced in customer service</li>
+                </ul>
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                    <!--    
+                        <img 
+                        src="./assets/images/graphics/instagram_logo.png"
+                        alt="Education icon"
+                        class="icon"
+                        />
+                    -->
+                        <h3 class="education-experience">Education</h3>
+                        <p class="education-header">KTH Royal institute of Technology</p>
+                        <p class="education-year">2019 - Now</p>
+                        <p class="education-description">Master of Science in Engineering - Interactive Media technology</p>
+
+                    </div>
+
+                    <div class="details-container">
+                    <!--    
+                        <img 
+                        src="./assets/images/graphics/instagram_logo.png"
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                    -->
+                        <h3 class="education-experience">Experience</h3>
+                        <p class="education-header">Junior consultant at IBM</p>
+                        <p class="education-year">2018</p>
+                        <p class="education-description">4 month trainee program</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <img src="./assets/graphics/arrow down.png" alt="Next section" class="icon arrow" onclick="location.href='./#skills'"/> 
+        -->
+    </section>
+
+    <hr class="line">
+
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+
+            <div class="details-container2 color-container">
+                <img 
+                src="./assets/images/projects/Sir lies-a-lot.png" 
+                alt="Project 5"
+                class="project-img"
+                />
+                <h2 class="experience-sub-title project-title">Sir Lies-a-Lot</h2>
+                <p class="project-year">2024</p>
+                <p class="project-description">A game I developed with a group in a course on Game Design and development. In this project I was mainly responsible for creating pixel art and in-game environmental assets such as tilemaps, as well as concept art. </p>
+            
+            <div class="button-around-container">
+                <div class="button-container2">
+                <button class="button button-color-2 project-button" 
+                        onclick="location.href='https://signekatt.itch.io/sir-lies-a-lot'">
+                        Try the game!
+                </button>
+                </div>
+
+                <div class="button-container3">
+                <button class="button button-color-2 project-button2" 
+                        onclick="location.href='https://sir-lies-a-lot.webflow.io/'")">
+                        Game website
+                </button>
+
+                <button class="button button-color-2 project-button2" 
+                        onclick="window.open('./assets/documents/Sir Lies-a-Lot Game Design Document.pdf')">
+                        Game design document
+                </button>
+                </div>
+            </div>
+            
+            </div>
+
+            <div class="details-container2 color-container">
+                    <img 
+                    src="./assets/images/projects/Spotify 1.png" 
+                    alt="Project 1"
+                    class="project-img"
+                    />
+                <h2 class="experience-sub-title project-title">Spotify Feed design challenge</h2>
+                <p class="project-year">2023</p>
+                <p class="project-description">Design challenge I did together with a group as part of a course focused on UX-design. We used <b>Figma</b> to create a working prototype.</p>
+                <!--
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn">
+                        Github
+                    </button>
+                </div>
+                -->
+            </div>
+
+            <div class="details-container2 color-container">
+                    <img 
+                    src="./assets/images/projects/Tinder Design Challenge.png" 
+                    alt="Project 2"
+                    class="project-img"
+                    />
+                <h2 class="experience-sub-title project-title">Tinder design challenge</h2>
+                <p class="project-year">2023</p>
+                <p class="project-description">Design challenge I did together with a group as part of a course focused on UX-design. We used <b>Figma</b> to create a working prototype.</p>
+                <!--
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn">
+                        Github
+                    </button>
+                </div>
+                -->
+            </div>
+
+            <div class="details-container2 color-container">
+                <img 
+                src="./assets/images/projects/Play beyond play.png" 
+                alt="Project 4"
+                class="project-img"
+                />
+            <h2 class="experience-sub-title project-title">Play beyond play</h2>
+            <p class="project-year">2022</p>
+            <p class="project-description">In this group project we worked together with Tekniska Museet in Stockholm and redesigned one of their exhibition screens to be more accessible for people with dyslexia. We developed a prototype for the screens based on <b>user testing</b> and research.</p>
+            
+            <div class="button-container2">
+                <button class="button button-color-2 project-button" 
+                onclick="window.open('./assets/documents/DM2624 Project report .docx.pdf')">
+                    Project report
+                </button>
+            </div>
+      
+                </div>
+
+            <div class="details-container2 color-container">
+                    <img 
+                    src="./assets/images/projects/grove1.png" 
+                    alt="Project 2"
+                    class="project-img2"
+                    />
+                
+                    <img 
+                    src="./assets/images/projects/grove2.png" 
+                    alt="Project 2"
+                    class="project-img3"
+                    />
+
+                <h2 class="experience-sub-title project-title">Grove</h2>
+                <p class="project-year">2022</p>
+                <p class="project-description">In this project we developed a prototype for a product to help young professionals be more intentional with the time spent in front of screens, and serve as an outside distraction to bring them out of undesired screen use. In the project we used <b>Figma</b> to make a prototype of the app interface, and built a physical prototype as well.</p>
+               
+                <div class="button-container2">
+                    <button class="button button-color-2 project-button" 
+                    onclick="window.open('./assets/documents/grove_workbook.pdf')">
+                        Project workbook
+                    </button>
+                </div>
+                
+            </div>
+
+            <div class="details-container2 color-container">
+        <img 
+        src="./assets/images/projects/startView.png" 
+        alt="Project 4"
+        class="project-img"
+        />
+    <h2 class="experience-sub-title project-title">Musiikkia</h2>
+    <p class="project-year">2022</p>
+    <p class="project-description">An online music quiz that uses Spotify's API to generate a quiz based on your playlists. In this group project I mainly focused on working with the <b>API</b> and <b>deployment</b> of the web page.</p>
+    <!--
+    <div class="btn-container">
+        <button class="btn btn-color-2 project-btn">
+            Github
+        </button>
+    </div>
+    -->
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="line">
+
+    <section id="contact">
+        <h1 class="title contact-title">
+            Contact me
+        </h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/graphics/email-icon.png"  
+                    alt="Email" 
+                    class="icon contact-icon email-icon">
+                <p>
+                   <a href="mailto:faerkhammar@gmail.com">faerkhammar@gmail.com</a> 
+                </p>
+            </div>
+
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/graphics/linkedin.png" 
+                    alt="LinkedIn" 
+                    class="icon contact-icon">
+                <p>
+                    <a href="href='http://www.linkedin.com/in/fanny-erkhammar-534924158/'">LinkedIn</a> 
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <nav class="footer">
+            <div class="nav-links-container">
+                <ul class="navbar-elements">
+                    <li><a href="#about">About</a></li>
+                    <!--
+                    <li><a href="#experience">Experience</a></li>
+                    -->
+                    <li><a href="#projects">Projects</a></li>
+                    <!--
+                    <li><a href="#art">Art</a></li>
+                    -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
